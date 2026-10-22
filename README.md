@@ -11,6 +11,11 @@ I'm Miftahul. I write frontend and product code at [Zenius Education](https://ww
 
 I came to this through robotics. Three college years on the EROS team at PENS meant computer vision, localization, and a wireless monitor for reading robot state mid-match. Freelance work after that was Qt and OpenCV desktop software: an archery pose checker, a maritime telemetry recorder. These days I build browser tools and terminal utilities, mostly for my own workflow.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/field-dark.svg">
+  <img alt="An animated robot monitor: three EROS robots dribble, pass, score and walk back to kickoff on an 800 by 500 cm field, while a table tracks each robot's position, heading, ball distance and state." src="assets/field-light.svg" width="100%">
+</picture>
+
 ### Tools
 
 <table>
@@ -88,5 +93,12 @@ A Surabaya news portal. I built and maintain its Ghost theme: article templates,
 ### The setup
 
 [My dotfiles](https://github.com/mifwar/dotfiles) are built around tmux with several coding agents side by side: a status bar that lights up when an agent needs me, transient clipboard copies for secrets, and yabai layouts I can save and restore. Neovim on LazyVim, Ghostty, Catppuccin everywhere.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/sigil-dark.svg">
+    <img alt="A glowing sigil: rotating rings reading MIFWAR, SURABAYA, CLAUDE, CODEX, PI, SMALL TOOLS around squares, an inverted triangle and a circle." src="assets/sigil-light.svg" width="160">
+  </picture>
+</p>
 
 <sub>[mifwar.com](https://mifwar.com) · [hi@mifwar.com](mailto:hi@mifwar.com) · [@mif_war](https://x.com/mif_war)</sub>
