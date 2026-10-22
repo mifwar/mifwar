@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="224" viewBox="0 0 880 224" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+  <style>
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    /* the cover slides right one character at a time to "type" the command */
+    .cover { animation: type 1.8s steps(45) 0.8s both; }
+    @keyframes type { from { transform: translateX(0); } to { transform: translateX(440px); } }
+    .output { animation: show 0.01s 2.9s both; }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor, .output { animation: none; }
+      .cover { display: none; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="223" rx="12" fill="#eff1f5" stroke="#ccd0da"/>
+  <path d="M12.5 0.5h855a12 12 0 0 1 12 12v22.5h-879v-22.5a12 12 0 0 1 12-12z" fill="#e6e9ef"/>
+  <line x1="0.5" y1="35" x2="879.5" y2="35" stroke="#ccd0da"/>
+  <circle cx="22" cy="18" r="6" fill="#d20f39"/><circle cx="42" cy="18" r="6" fill="#df8e1d"/><circle cx="62" cy="18" r="6" fill="#40a02b"/>
+  <text x="440.0" y="23" text-anchor="middle" font-size="13" fill="#9ca0b0">mifwar — tmux</text>
+
+  <text x="28" y="72"><tspan fill="#1e66f5">~</tspan><tspan fill="#8839ef"> ❯ </tspan><tspan fill="#4c4f69">whoami</tspan></text>
+  <text x="28" y="100" font-size="22" font-weight="700" fill="#4c4f69">Miftahul Anwar</text>
+  <text x="28" y="126" fill="#6c6f85">software engineer <tspan fill="#9ca0b0">·</tspan> Zenius Education <tspan fill="#9ca0b0">·</tspan> Indonesia</text>
+
+  <text x="28" y="166"><tspan fill="#1e66f5">~</tspan><tspan fill="#8839ef"> ❯ </tspan></text>
+  <text x="64" y="166" fill="#4c4f69">crew up profile lead=claude impl=codex rev=pi</text>
+  <rect class="cover" x="62" y="148" width="440" height="24" fill="#eff1f5"/>
+  <text class="output" x="28" y="192" fill="#6c6f85"><tspan fill="#40a02b">●</tspan> claude plans  <tspan fill="#40a02b">●</tspan> codex builds  <tspan fill="#df8e1d">●</tspan> pi reviews  <tspan fill="#9ca0b0">· three agents, one tmux window</tspan><tspan class="cursor" fill="#4c4f69"> ▍</tspan></text>
+
+</svg>
