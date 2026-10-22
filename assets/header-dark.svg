@@ -16,7 +16,7 @@
   <path d="M12.5 0.5h855a12 12 0 0 1 12 12v22.5h-879v-22.5a12 12 0 0 1 12-12z" fill="#181825"/>
   <line x1="0.5" y1="35" x2="879.5" y2="35" stroke="#313244"/>
   <circle cx="22" cy="18" r="6" fill="#f38ba8"/><circle cx="42" cy="18" r="6" fill="#f9e2af"/><circle cx="62" cy="18" r="6" fill="#a6e3a1"/>
-  <text x="440.0" y="23" text-anchor="middle" font-size="13" fill="#6c7086">mifwar — tmux</text>
+  <text x="440" y="23" text-anchor="middle" font-size="13" fill="#6c7086">mifwar — tmux</text>
 
   <text x="28" y="72"><tspan fill="#89b4fa">~</tspan><tspan fill="#cba6f7"> ❯ </tspan><tspan fill="#cdd6f4">whoami</tspan></text>
   <text x="28" y="100" font-size="22" font-weight="700" fill="#cdd6f4">Miftahul Anwar</text>

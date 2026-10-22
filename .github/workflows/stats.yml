@@ -23,7 +23,7 @@ jobs:
                 createdAt
                 contributionsCollection { contributionCalendar { totalContributions } }
             } }' --jq '"\(.data.user.contributionsCollection.contributionCalendar.totalContributions) \(.data.user.createdAt[0:4])"')
-          python3 scripts/header.py assets "$total" "$since"
+          scripts/header.sh assets "$total" "$since"
 
       - name: Commit if changed
         run: |
