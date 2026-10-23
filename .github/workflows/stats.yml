@@ -2,7 +2,7 @@ name: Refresh header stats
 
 on:
   schedule:
-    - cron: "0 0 * * 1" # Mondays 00:00 UTC
+    - cron: "0 0 * * *" # daily, 00:00 UTC (07:00 in Surabaya)
   workflow_dispatch:
 
 permissions:
